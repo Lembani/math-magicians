@@ -13,8 +13,8 @@ body {
 }
 
 .cell {
+  background-color: #fff;
   border: 1px solid #ddd;
-  height: 20px;
   text-align: center;
   padding: 10px;
 }
