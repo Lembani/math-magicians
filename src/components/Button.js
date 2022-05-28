@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Button extends React.PureComponent {
-  render() {
-    const { val, handleChange, styleClass } = this.props;
-    return (
-      <button onClick={handleChange} className={styleClass} type="button">
-        {val}
-      </button>
-    );
-  }
-}
+const Button = (props) => {
+  const { val, handleChange, styleClass } = props;
+  return (
+    <button onClick={handleChange} className={styleClass} type="button">
+      {val}
+    </button>
+  );
+};
 
 Button.propTypes = {
   val: PropTypes.string.isRequired,
