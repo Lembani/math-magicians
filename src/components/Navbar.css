@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px, rgba(0, 0, 0, 0.3) 0 18px 36px -18px;
+}
+
+.brand {
+  font-size: 2.5rem;
+}
+
+.nav-list-container {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list-item {
+  padding: 0 10px;
+
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: rgb(243, 168, 31);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000;
+}
