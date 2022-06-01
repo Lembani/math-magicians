@@ -1,0 +1,12 @@
+.home-welcome {
+  margin: 30px 0;
+  font-size: 1.7rem;
+  padding-left: 20px;
+}
+
+.para-one,
+.para-two {
+  padding: 0 20px;
+  margin: 30px 0;
+  line-height: 25px;
+}
