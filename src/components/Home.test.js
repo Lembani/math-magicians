@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import Home from './Home';
 
 test('heading', () => {
@@ -18,3 +19,8 @@ test('Second paragraph', () => {
     const paragraphs = document.querySelector('.para-two');
     expect(paragraphs).toBeInTheDocument();
 });
+
+it('It renders correctly', () => {
+    const tree = renderer.create(<Home />).toJSON()
+    expect(tree).toMatchSnapshot();
+})
