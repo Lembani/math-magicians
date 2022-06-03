@@ -10,3 +10,7 @@ test('addition', () => {
     expect(result).toBe('5');
 });
 
+test('subtraction', () => {
+    const result = operate('7', '4', '-');
+    expect(result).toBe('3');
+});
