@@ -10,4 +10,12 @@ describe('Should enable user interaction', () => {
     fireEvent.click(numb);
     expect(output.textContent).toBe('3');
   });
+
+  test('Simulate an operation', () => {
+    render(<Calculator />);
+    const addSymbol = screen.getByText('+');
+    const output = screen.getByRole('button', { name: addSymbol.textContent });
+    fireEvent.click(addSymbol);
+    expect(output.textContent).toBe('+');
+  });
 });
