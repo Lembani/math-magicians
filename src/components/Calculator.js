@@ -31,7 +31,7 @@ const Calculator = () => {
       <div className="calculator-container">
         <h2 className="calculator-heading">Let&apos;s do some math!</h2>
         <div className="main-calculator">
-          <div className="cell result">{ result || 0 }</div>
+          <div role="cell" className="cell result">{ result || 0 }</div>
           <Button handleChange={(e) => handleChange(e)} styleClass="cell" val="AC" />
           <Button handleChange={(e) => handleChange(e)} styleClass="cell" val="+/-" />
           <Button handleChange={(e) => handleChange(e)} styleClass="cell" val="%" />
