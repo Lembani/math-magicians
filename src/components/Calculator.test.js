@@ -51,4 +51,12 @@ describe('Validate `calculate` functions', () => {
     result = calculate(result, '=');
     expect(result.total).toBe('6');
   });
+
+  test('Multiplication', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, 'x');
+    result = calculate(result, '4');
+    result = calculate(result, '=');
+    expect(result.total).toBe('40');
+  });
 });
