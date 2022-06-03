@@ -40,3 +40,15 @@ describe('Number is a negative', () => {
     expect(result.next).toEqual('-10');
   });
 });
+
+describe('AC is pressed', () => {
+  test('If result is cleared', () => {
+    const btn = 'AC';
+    const result = calculate({
+      total: '20', next: '5', operation: '-',
+    }, btn);
+    expect(result).toEqual({
+      total: null, next: null, operation: null,
+    });
+  });
+});
