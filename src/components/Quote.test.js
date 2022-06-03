@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Quote from './Quote';
 
@@ -12,4 +12,3 @@ it('It renders correctly', () => {
   const tree = renderer.create(<Quote />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-  
