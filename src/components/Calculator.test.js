@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import renderer from 'react-test-renderer';
 import Calculator from './Calculator';
+import calculate from '../logic/calculate';
 
 describe('Should enable user interaction', () => {
   test('Simulate if input is a number', () => {
@@ -32,4 +32,17 @@ describe('Should enable user interaction', () => {
     fireEvent.click(equalSign);
     expect(answer.textContent.trim()).toBe('3');
   });
+});
+
+describe('Validate `calculate` functions', () => {
+  const num = { total: null, next: null, operation: null };
+  test('Addition', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, '+');
+    result = calculate(result, '4');
+    result = calculate(result, '=');
+    expect(result.total).toBe('14');
+  });
+
+  // more tests here...
 });
