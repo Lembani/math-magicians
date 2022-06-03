@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should be in document and render correctly on the screen Renders to the screen 1`] = `
+<nav
+  className="navbar"
+>
+  <a
+    className="brand nav-link"
+    href="/"
+    onClick={[Function]}
+  >
+    Math Magicians
+  </a>
+  <ul
+    className="nav-list-container"
+  >
+    <li
+      className="nav-list-item"
+    >
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    |
+    <li
+      className="nav-list-item"
+    >
+      <a
+        className="nav-link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    |
+    <li
+      className="nav-list-item"
+    >
+      <a
+        className="nav-link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
