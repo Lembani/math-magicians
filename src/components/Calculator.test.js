@@ -59,4 +59,12 @@ describe('Validate `calculate` functions', () => {
     result = calculate(result, '=');
     expect(result.total).toBe('40');
   });
+
+  test('Divide by Zero (0)', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, '÷');
+    result = calculate(result, '0');
+    result = calculate(result, '=');
+    expect(result.total).toBe('Can\'t divide by 0.');
+    }); 
 });
