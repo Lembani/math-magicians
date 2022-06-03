@@ -19,3 +19,8 @@ test('division', () => {
     const result = operate('10', '5', '÷');
     expect(result).toBe('2');
 });
+
+test('modulos', () => {
+    const result = operate('10', '5', '%');
+    expect(result).toBe('0');
+});
