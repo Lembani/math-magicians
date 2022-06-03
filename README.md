@@ -4,6 +4,9 @@
 
 > A website for all fans of mathematics.
 
+<img width="1431" alt="math-magicians" src="https://user-images.githubusercontent.com/30483991/171800961-85cdd296-6b3f-4780-9c4a-a62d81e3ad32.png">
+
+
 ## Built With
 
 - ReactJS
