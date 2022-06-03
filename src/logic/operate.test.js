@@ -14,3 +14,8 @@ test('subtraction', () => {
     const result = operate('7', '4', '-');
     expect(result).toBe('3');
 });
+
+test('division', () => {
+    const result = operate('10', '5', '÷');
+    expect(result).toBe('2');
+});
