@@ -44,5 +44,11 @@ describe('Validate `calculate` functions', () => {
     expect(result.total).toBe('14');
   });
 
-  // more tests here...
+  test('Subtraction', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, '-');
+    result = calculate(result, '4');
+    result = calculate(result, '=');
+    expect(result.total).toBe('6');
+  });
 });
