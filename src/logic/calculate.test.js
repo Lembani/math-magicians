@@ -52,3 +52,13 @@ describe('AC is pressed', () => {
     });
   });
 });
+
+describe('Get a result', () => {
+  test('If equal sign (=) is pressed', () => {
+    const btn = '=';
+    const result = calculate({
+      total: '10', next: '5', operation: '+',
+    }, btn);
+    expect(result.total).toEqual('15');
+  });
+});
