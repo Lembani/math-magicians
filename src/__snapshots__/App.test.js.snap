@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`If app renders correctly Renders to the screen 1`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar"
+  >
+    <a
+      className="brand nav-link"
+      href="/"
+      onClick={[Function]}
+    >
+      Math Magicians
+    </a>
+    <ul
+      className="nav-list-container"
+    >
+      <li
+        className="nav-list-item"
+      >
+        <a
+          className="nav-link"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      |
+      <li
+        className="nav-list-item"
+      >
+        <a
+          className="nav-link"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      |
+      <li
+        className="nav-list-item"
+      >
+        <a
+          className="nav-link"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2
+    className="home-welcome"
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    className="para-one"
+  >
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam, magni autem cupiditate consequatur tempore temporibus quia ab perferendis laudantium eos voluptates sint, saepe ipsum reprehenderit impedit consectetur at veniam architecto, culpa alias voluptatum itaque? Sint aperiam, beatae explicabo quis totam amet. Nihil praesentium, velit exercitationem animi, ipsum quibusdam eveniet distinctio nobis repudiandae laudantium sunt dolorum aliquam? Eius, aliquam! Architecto maiores explicabo facilis? Ullam repellat cumque delectus incidunt? Nam quam tempora doloribus sit, velit corrupti natus quis mollitia exercitationem dicta amet nihil molestias consequuntur vel consectetur vero eaque quas.
+  </p>
+  <p
+    className="para-two"
+  >
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam, magni autem cupiditate consequatur tempore temporibus quia ab perferendis laudantium eos voluptates sint, saepe ipsum reprehenderit impedit consectetur at veniam architecto, culpa alias voluptatum itaque? Sint aperiam, beatae explicabo quis totam amet. Nihil praesentium, velit exercitationem animi, ipsum quibusdam eveniet distinctio nobis repudiandae laudantium sunt dolorum aliquam? Eius, aliquam! Architecto maiores explicabo facilis? Ullam repellat cumque delectus incidunt? Nam quam tempora doloribus sit, velit corrupti natus quis mollitia exercitationem dicta amet nihil molestias consequuntur vel consectetur vero eaque quas.
+  </p>
+</div>
+`;
