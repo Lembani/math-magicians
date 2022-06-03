@@ -18,4 +18,18 @@ describe('Should enable user interaction', () => {
     fireEvent.click(addSymbol);
     expect(output.textContent).toBe('+');
   });
+
+  test('Simulate right answer', () => {
+    render(<Calculator />);
+    const num1 = screen.getByText('5');
+    const num2 = screen.getByText('2');
+    const operator = screen.getByText('-');
+    const equalSign = screen.getByText('=');
+    const answer = screen.getByRole('cell', { name: '0' });
+    fireEvent.click(num1);
+    fireEvent.click(operator);
+    fireEvent.click(num2);
+    fireEvent.click(equalSign);
+    expect(answer.textContent.trim()).toBe('3');
+  });
 });
