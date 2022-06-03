@@ -27,3 +27,16 @@ describe('Number entered is decimal', () => {
     expect(result.next).toEqual('2.5');
   });
 });
+
+describe('Number is a negative', () => {
+  test('If `+/-` is pressed', () => {
+    let btn = '10';
+    let result = calculate({
+      total: null, next: null, operation: null,
+    }, btn);
+    expect(result.next).toEqual('10');
+    btn = '+/-';
+    result = calculate(result, btn);
+    expect(result.next).toEqual('-10');
+  });
+});
