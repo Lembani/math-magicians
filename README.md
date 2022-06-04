@@ -14,8 +14,10 @@
 
 ## Live Demo Link
 
-The website is deployed using Github Pages.
-Click the [Link to Live Demo](https://lembani.github.io/math-magicians) [Coming soon]
+The website is deployed on the following links:
+ - [Heroku link](https://math-magicians-web.herokuapp.com/)
+ - [Netlify link](https://629b8da32ef52516765a26df--splendorous-kelpie-2db5df.netlify.app/)
+
 
 ## Prerequisites
 
