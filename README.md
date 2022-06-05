@@ -94,6 +94,12 @@ $ npx eslint .
 - Twitter: [@lembani_](https://twitter.com/lembani_)
 - LinkedIn: [lembani-sakala-b58615109](https://linkedin.com/in/lembani-sakala-b58615109)
 
+👤 **Faith Chidinma**
+
+- GitHub: [@Dinma-Faith](https://github.com/Dinma-Faith)
+- Twitter: [@phayte_p](https://twitter.com/phayte_p)
+- LinkedIn: [Chidinma-Faith](https://linkedin.com/in/chidinma-faith)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
